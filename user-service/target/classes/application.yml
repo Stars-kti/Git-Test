@@ -1,0 +1,46 @@
+server:
+  port: 8999
+
+spring:
+  security:
+    user:
+      password: user
+  application:
+    name: user-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/clouddemo?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: true
+
+  session:
+    store-type: redis
+
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    database: 1
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 10
+    timeout: 3000
+
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+feign:
+  hystrix:
+    enabled: true
+

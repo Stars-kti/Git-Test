@@ -1,0 +1,9 @@
+com\uaa\config\OAuth2Config.class
+com\uaa\entity\User.class
+com\uaa\service\UserServiceDetail.class
+com\uaa\entity\Role.class
+com\uaa\config\WebSecurityConfig.class
+com\uaa\controller\KeyPairController.class
+com\uaa\config\ResourceServerConfig.class
+com\uaa\UaaServerApplication.class
+com\uaa\dao\UserDao.class

@@ -1,0 +1,10 @@
+C:\Users\citicsf\Desktop\IDEA Work Bate\Gateway-Uaa-Bate\gateway-service\src\main\java\com\gateway\entity\User.java
+C:\Users\citicsf\Desktop\IDEA Work Bate\Gateway-Uaa-Bate\gateway-service\src\main\java\com\gateway\filter\UserGlobalFilterFactor.java
+C:\Users\citicsf\Desktop\IDEA Work Bate\Gateway-Uaa-Bate\gateway-service\src\main\java\com\gateway\filter\GwCorsFilter.java
+C:\Users\citicsf\Desktop\IDEA Work Bate\Gateway-Uaa-Bate\gateway-service\src\main\java\com\gateway\entity\Role.java
+C:\Users\citicsf\Desktop\IDEA Work Bate\Gateway-Uaa-Bate\gateway-service\src\main\java\com\gateway\filter\TokenFilter.java
+C:\Users\citicsf\Desktop\IDEA Work Bate\Gateway-Uaa-Bate\gateway-service\src\main\java\com\gateway\GatewayServerApplication.java
+C:\Users\citicsf\Desktop\IDEA Work Bate\Gateway-Uaa-Bate\gateway-service\src\main\java\com\gateway\filter\WrapperResponseGlobalFilter.java
+C:\Users\citicsf\Desktop\IDEA Work Bate\Gateway-Uaa-Bate\gateway-service\src\main\java\com\gateway\entity\LoginDTO.java
+C:\Users\citicsf\Desktop\IDEA Work Bate\Gateway-Uaa-Bate\gateway-service\src\main\java\com\gateway\filter\RequestTimeGatewayFilterFactory.java
+C:\Users\citicsf\Desktop\IDEA Work Bate\Gateway-Uaa-Bate\gateway-service\src\main\java\com\gateway\util\TokenUtils.java

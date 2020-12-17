@@ -1,0 +1,23 @@
+server:
+  port: 1234
+
+#数据库连接字符串
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:6688/smartbi?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=Asia/Shanghai
+    username: admin
+    password: admin
+
+#mybatis
+mybatis-plus:
+  #xml路径
+  mapper-locations: mapper/*.xml
+  #实体类表明注释
+  type-aliases-package: com.smartbi.data.entity
+  configuration:
+    #打印sql语句
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #懒加载
+    lazy-loading-enabled: true
+
